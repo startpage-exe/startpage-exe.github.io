@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>~/startpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="gif">
+			 <img id="gifImage" src="gifs/1.gif" alt="Animated GIF" />
+            </div>
+        </div>
+
+
+        <div class="right-container">
+            <div class="head">
+                <p>> Hello World <span class="blinking">_</span></p>
+		        </div>
+			
+		<form method="GET" target="_blank" action="http://www.google.com/search">
+			<input name="q" type="text" class="search-field" autofocus placeholder="Search Google" autocomplete="off">
+			<button type="submit" class="search-submit" value="" style="fill: white"></button>
+</form>
+	
+	    <form method="GET" action="https://yandex.com/search" target="_blank">
+    <input name="text" class="search-field" autofocus placeholder="Search Yandex" autocomplete="off">
+    <button type="submit" class="search-submit">
+    </button>
+</form>
+		
+
+	
+            <div class="bookmarks">
+                <div class="category">
+                    <div class="links">
+                        <li class="title">College</li>
+                        <li><a href="https://psu.instructure.com/">Canvas</a></li>
+                        <li><a href="https://docs.google.com/document/u/0/">Docs</a></li>
+                        <li><a href="https://outlook.office.com">Outlook</a></li>
+                        <li><a href="https://lionpathsupport.psu.edu/">LionPath</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title">Hacking</li>
+                        <li><a href="https://www.hackthebox.com/">HackTheBox</a></li>
+                        <li><a href="https://tryhackme.com/r/login">TryHackMe</a></li>
+                        <li><a href="https://www.root-me.org/?lang=en">RootMe</a></li>
+                        <li><a href="https://github.com/The-Art-of-Hacking/h4cker">HackerRepo</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title"><a style="color: #668F8B" href="https://reddit.com">Piracy</a></li>
+                        <li><a href="https://libgen.gs/">LibGen</a></li>
+                        <li><a href="https://rutracker.org/forum/index.php">RuTracker</a></li>
+                        <li><a href="https://cs.rin.ru/forum/index.php">CS.RIN.RU</a></li>
+                        <li><a href="https://old.reddit.com/r/Piracy/wiki/megathread">r/Piracy</a></li>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="links">
+                        <li class="title">Media</li>
+                        <li><a href="https://fmoviesto.cc/">Movies</a></li>
+                        <li><a href="https://letterboxd.com/">Letterboxd</a></li>
+                        <li><a href="https://youtube.com/">Youtube</a></li>
+                        <li><a href="https://twitch.tv/">Twitch</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="gifcycle.js"></script>
+</html>
